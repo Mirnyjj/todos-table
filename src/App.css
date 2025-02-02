@@ -134,5 +134,6 @@ tbody tr td {
   .count {
     width: 86px;
     box-sizing: border-box;
+    text-align: center;
   }
 }
