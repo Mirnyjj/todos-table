@@ -1,0 +1,138 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+h1 {
+  font-family: "Inter", serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58.08px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.description {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.3);
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.table_block {
+  border-spacing: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+thead {
+  background-color: rgba(255, 255, 255, 0.04);
+  font-family: "Inter", serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14.52px;
+  letter-spacing: 0.05em;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+tbody tr td {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.td_number {
+  padding: 8.5px 19.5px;
+  width: 47px;
+  box-sizing: border-box;
+}
+
+.number {
+  font-family: "Inter", serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.36px;
+  color: #ffffff;
+}
+
+.user_info {
+  display: flex;
+  padding: 20px 8px;
+  gap: 16px;
+  box-sizing: border-box;
+}
+
+.user_name {
+  font-family: "Inter", serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.36px;
+  color: #ffffff;
+  margin-bottom: 4px;
+}
+
+.user_email {
+  font-family: "Inter", serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14.52px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.count {
+  width: 168px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 430px) {
+  h1 {
+    font-size: 24px;
+    line-height: 29.04px;
+  }
+
+  .description {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 24px;
+  }
+
+  thead {
+    font-size: 8px;
+    line-height: 9.68px;
+  }
+
+  .td_number {
+    padding: 11px 15.5px;
+    width: 37px;
+  }
+
+  .number {
+    font-size: 12px;
+    line-height: 14.52px;
+  }
+
+  .user_info {
+    padding: 14px 8px;
+    gap: 10px;
+  }
+
+  .user_name {
+    font-size: 12px;
+    line-height: 14.52px;
+    margin-bottom: 4px;
+  }
+
+  .user_email {
+    font-size: 10px;
+    line-height: 12.1px;
+  }
+
+  .count {
+    width: 86px;
+    box-sizing: border-box;
+  }
+}

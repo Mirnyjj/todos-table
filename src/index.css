@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #4b5258;
+  padding: 81px 80px 66px 79px;
+}
+
+/* html,
+body {
+  overflow-y: hidden;
+} */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 834px) {
+  :root {
+    padding: 81px 80px 101px 79px;
+  }
+}
+@media screen and (max-width: 430px) {
+  :root {
+    padding: 56px 40px 145px 40px;
+  }
+}
